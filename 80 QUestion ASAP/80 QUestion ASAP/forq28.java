@@ -1,0 +1,35 @@
+// // public class forq28 {
+
+// //     public static void main(String[] args) {
+// //         int x=2;int n=5;int sum=0;int term=1;
+// //         for(int i=1;i<=n;i++){
+// //             term*=x;
+// //             sum+=term;
+// //         }
+// //         System.out.println(sum);
+
+// //     }}
+
+
+// public class forq28 {
+
+//     public static void main(String[] args) {
+//         int x=2;int n=1;int term=1;int sum=0;
+//         for(int i=1;i<=n;i++){
+//             term*=x;sum+=term;
+//         }
+//         System.out.println(sum);
+//     }
+// }
+public class forq28 {
+
+    public static void main(String[] args) {
+           int x=2;int n=5;int term=1;int sum=0;
+        for(int i=1;i<=n;i++){
+            term*=x;
+            sum+=term;
+        }
+        System.out.println(sum);
+ 
+    }
+}
